@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project Greeting</title>
+		<style>
+			.turn {
+				background-color: green;
+
+			}
+
+			.notturn {
+				background-color: red;
+			}
+
+			.buttons button {
+				margin-right: 10px;
+				margin-bottom: 10px;
+
+				width: 80px;
+				height: 40px;
+				border: none;
+				font-weight: bold;
+				font-size: 16px;
+				color: white;
+				border-radius: 10px;
+				transition: 0.2s;
+			}
+
+			.buttons button:hover {
+				width: 85px;
+			}
+
+			body {
+				padding: 15px;
+			}
+
+			input {
+				height: 100%;
+				width: 70%;
+				font-size: 25px;
+				margin-right: 5px;
+				border-radius: 5px;
+				border-width: 1px;
+				border-style: solid;
+				padding-left: 20px;
+			}
+
+			.done {
+				height: 35px;
+				width: 30%;
+				background-color: green;
+				font-size: 20px;
+				color: white;
+				border: none;
+				border-radius: 5PX;
+				transition: 0.2s;
+				cursor: pointer;
+			}
+
+			.done:hover {
+				font-size: 23px;
+			}
+
+			.inputs {
+				display: flex;
+			}
+
+			.js-input-two {
+				width: 95%;
+			}
+
+
+
+			.text {
+				font-family: cursive;
+				margin: 0px;
+			}
+
+
+			.heading {
+				font-family: Times New roman;
+			}
+
+			body {
+
+			}
+
+
+		</style>
+	</head>
+	<body bgcolor="F7F7F7">
+		<h1 class="heading">Welcome to Custom Dice Manager</h1>
+		<h3>Start by Writing the number of players in the text box:</h3>
+		<div class="inputs">
+			<input class="js-input">
+
+			<button class="done">Done</button>
+		</div>
+		<br>
+		<h3>(Optional), Enter the maximum value the dice can display in the following textBox. </h3>
+		<input class="js-input-two">
+
+		<h3>The player Buttons will appear here.</h3>
+		<p>The green button indicates the players turn</p>
+
+		<div class="buttons"></div>
+		<p>You will see the result here</p>
+		<h1 class="text"></h1>
+		<script src="custom-script.js"></script>
+	</body>
+</html>

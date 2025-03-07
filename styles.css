@@ -1,0 +1,30 @@
+button {
+	margin-right: 10px;
+
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	margin-right: 10px;
+}
+
+h1, p, h2, h3 {
+	text-align: center;
+}
+
+img {
+	width: 100px;
+}
+
+a {
+	margin-right: 10px;
+	text-decoration: none;
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
